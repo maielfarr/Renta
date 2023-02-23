@@ -1,0 +1,572 @@
+.parent {
+  margin: 0px;
+  padding: 0px;
+  background-color: #f7f8fa;
+  text-transform: capitalize;
+  width: 100%;
+  overflow-x: hidden;
+}
+nav {
+  padding: 15px;
+}
+nav ul {
+  float: left;
+}
+.n-list {
+  list-style: none;
+  display: inline;
+  margin: 30px;
+}
+.n-list a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+.n-list a:hover {
+  color: gray;
+}
+.n-button {
+  width: 8%;
+  height: 50px;
+  margin-right: 30px;
+  background-color: #ff8500;
+  float: right;
+  color: white;
+  border-style: none;
+  border-radius: 10px;
+}
+.n-button:hover {
+  background-color: #a35705;
+}
+.cl {
+  clear: both;
+}
+.one {
+  position: relative;
+}
+.ch-one {
+  text-align: center;
+  width: 70%;
+  padding: 20px;
+}
+.ch-one .s-one {
+  color: #ff8500;
+  font-size: 20px;
+  display: block;
+}
+.ch-one p {
+  font-size: 60px;
+  width: 50%;
+  margin-left: 25%;
+}
+.button-two {
+  width: 15%;
+  height: 50px;
+  background-color: #ff8500;
+  color: white;
+  border-style: none;
+  border-radius: 10px;
+  text-transform: capitalize;
+  padding: 5px;
+}
+.button-two:hover {
+  background-color: #a35705;
+}
+.ch-two {
+  width: 30%;
+  position: absolute;
+  right: 0px;
+  top: 100px;
+}
+.top {
+  width: 40%;
+  height: 150px;
+  background-color: #ff8500;
+  float: right;
+}
+.bottom {
+  width: 40%;
+  height: 150px;
+  background-color: #0f2853;
+}
+.two {
+  background-color: #0f2853;
+  color: white;
+  text-align: center;
+  padding: 100px;
+}
+.two:hover {
+  background-color: #041b41;
+}
+.s-two {
+  font-size: 50px;
+}
+.three {
+  width: 30%;
+}
+.s-three {
+  color: #ff8500;
+  font-size: 20px;
+  display: block;
+}
+.three p {
+  font-size: 50px;
+}
+.three li {
+  list-style-type: "-";
+  line-height: 30px;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.four {
+  background-color: #0f2853;
+  color: white;
+  width: 100%;
+  padding: 100px;
+  height: auto;
+}
+.f-n {
+  background-color: #ff8500;
+  color: #0f2853;
+  width: 20px;
+  height: 30px;
+  border-radius: 70%;
+  text-align: center;
+  padding: 5px;
+  font-size: 25px;
+  margin-right: 25px;
+}
+.f-p {
+  position: absolute;
+  left: 50px;
+  top: -20px;
+}
+.f-one {
+  padding: 10px;
+  margin: auto;
+  width: calc((100% - 230px) / 3);
+  float: left;
+  position: relative;
+}
+.f-two {
+  padding: 10px;
+  margin: auto;
+  width: calc((100% - 210px) / 3);
+  float: left;
+  position: relative;
+}
+.f-three {
+  padding: 10px;
+  margin: auto;
+  width: calc((100% - 210px) / 3);
+  float: left;
+  position: relative;
+}
+.five {
+  padding: 100px;
+  width: 90%;
+}
+.five .head {
+  font-size: 50px;
+  margin: 0px;
+}
+.first {
+  text-align: center;
+  width: 50%;
+  float: right;
+  font-size: 20px;
+  margin: 10px;
+}
+.second {
+  text-align: center;
+  width: 50%;
+  float: left;
+  font-size: 20px;
+  margin: 10px;
+}
+.third {
+  text-align: center;
+  width: 50%;
+  float: right;
+  font-size: 20px;
+  margin: 10px;
+}
+.fourth {
+  text-align: center;
+  width: 50%;
+  float: left;
+  font-size: 20px;
+  margin: 10px;
+}
+.five p,
+.five h5 {
+  margin: 0px;
+}
+.button-five {
+  width: 15%;
+  height: 50px;
+  background-color: #ff8500;
+  color: white;
+  border-style: none;
+  border-radius: 10px;
+  text-transform: capitalize;
+  padding: 5px;
+  position: absolute;
+  margin: 3%;
+  left: 40%;
+}
+.button-five:hover {
+  background-color: #a35705;
+}
+.six {
+  background-image: url("images/rent7-1920x1280.jpg");
+  background-size: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 55%;
+  height: 200px;
+  padding: 100px;
+  padding-left: 40%;
+}
+.circle {
+  width: 150px;
+  background-color: #0f2853;
+  height: 140px;
+  border-radius: 50%;
+  word-wrap: break-word;
+  color: white;
+  padding: 50px;
+  text-align: center;
+  font-size: 30px;
+  float: left;
+}
+.circle:hover {
+  padding: 70px;
+  background-color: #041b41;
+}
+.seven {
+  text-align: center;
+}
+.seven p {
+  font-size: 50px;
+}
+.eight {
+  width: 100%;
+  padding: 50px;
+}
+.mail {
+  text-align: center;
+  padding: 80px;
+  width: calc((100% - 800px) / 4);
+  height: 150px;
+  background-color: #ff8500;
+  float: left;
+  line-height: 150px;
+  transition-duration: 1s;
+  overflow: hidden;
+}
+.mail:hover {
+  line-height: 30px;
+}
+.visual {
+  text-align: center;
+  padding: 80px;
+  width: calc((100% - 800px) / 4);
+  height: 150px;
+  background-color: rgb(183, 176, 176);
+  float: left;
+  line-height: 150px;
+  transition-duration: 1s;
+  overflow: hidden;
+}
+.visual:hover {
+  line-height: 30px;
+}
+.file {
+  text-align: center;
+  padding: 80px;
+  width: calc((100% - 800px) / 4);
+  height: 150px;
+  background-color: #0f2853;
+  color: white;
+  float: left;
+  line-height: 150px;
+  transition-duration: 1s;
+  overflow: hidden;
+}
+.file:hover {
+  line-height: 30px;
+}
+.site {
+  text-align: center;
+  padding: 80px;
+  width: calc((100% - 800px) / 4);
+  height: 150px;
+  background-color: #ff8500;
+  float: left;
+  line-height: 150px;
+  transition-duration: 1s;
+  overflow: hidden;
+}
+.site:hover {
+  line-height: 30px;
+}
+.calender {
+  text-align: center;
+  padding: 80px;
+  width: calc((100% - 800px) / 4);
+  height: 150px;
+  background-color: rgb(183, 176, 176);
+  float: left;
+  line-height: 150px;
+  transition-duration: 1s;
+  overflow: hidden;
+}
+.calender:hover {
+  line-height: 30px;
+}
+.suitcase {
+  text-align: center;
+  padding: 80px;
+  width: calc((100% - 800px) / 4);
+  height: 150px;
+  background-color: #0f2853;
+  float: left;
+  line-height: 150px;
+  color: white;
+  transition-duration: 1s;
+  overflow: hidden;
+}
+.suitcase:hover {
+  line-height: 30px;
+}
+.chat {
+  text-align: center;
+  padding: 80px;
+  width: calc((100% - 800px) / 4);
+  height: 150px;
+  background-color: #ff8500;
+  float: left;
+  line-height: 150px;
+  transition-duration: 1s;
+  overflow: hidden;
+}
+.chat:hover {
+  line-height: 30px;
+}
+.global {
+  text-align: center;
+  padding: 80px;
+  width: calc((100% - 800px) / 4);
+  height: 150px;
+  background-color: rgb(183, 176, 176);
+  float: left;
+  line-height: 150px;
+  transition-duration: 1s;
+  overflow: hidden;
+}
+.global:hover {
+  line-height: 30px;
+}
+.ninth .h {
+  font-size: 50px;
+}
+.ninth p {
+  margin: 10px;
+}
+.ninth {
+  width: 50%;
+  float: right;
+  padding: 20px;
+  line-height: 35px;
+}
+.button-nine {
+  width: 30%;
+  height: 50px;
+  background-color: #ff8500;
+  color: white;
+  border-style: none;
+  border-radius: 10px;
+  text-transform: capitalize;
+  padding: 5px;
+  margin: 10px;
+}
+.button-nine:hover {
+  background-color: #a35705;
+}
+.ten {
+  width: 100%;
+}
+.t-one {
+  width: 50%;
+  float: left;
+  line-height: 35px;
+}
+.hh {
+  font-size: 50px;
+}
+.tenth p {
+  margin: 10px;
+}
+.t-two {
+  overflow: hidden;
+}
+.t-two p {
+  line-height: 30px;
+  color: grey;
+}
+.t-two h4 {
+  padding: 20px;
+  margin: 10px 0px;
+  border-bottom: 2px solid gray;
+}
+.hhh {
+  font-size: 45px;
+}
+.e-one {
+  width: 40%;
+  float: left;
+}
+.e-two {
+  padding: 20px;
+  width: 50%;
+  float: right;
+}
+.name {
+  width: 80%;
+  height: 30px;
+  padding: 10px;
+  margin: 10px;
+}
+.email {
+  width: 80%;
+  height: 30px;
+  padding: 10px;
+  margin: 10px;
+}
+.message {
+  width: 80%;
+  height: 80px;
+  padding: 10px;
+  margin: 10px;
+}
+.submit {
+  width: 25%;
+  height: 50px;
+  background-color: #ff8500;
+  color: white;
+  border-style: none;
+  border-radius: 10px;
+  text-transform: capitalize;
+  padding: 5px;
+  font-size: 15px;
+  margin: 10px;
+}
+.submit:hover {
+  background-color: #a35705;
+}
+.last {
+  width: 100%;
+}
+.a,
+.b,
+.c {
+ padding: 10px;
+margin: 10px;
+text-align: center;
+color: gray;
+width: calc((100% - 120px) / 3);
+float: left;
+}
+@media (min-width: 250px) and (max-width: 1200px) {
+nav ul {
+    display: none;
+}
+.n-button {
+    display: none;
+}
+.one {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 40%;
+}
+.ch-one p {
+    font-size: 49px;
+}
+  
+.ch-one .s-one{
+  display: none
+}
+
+.button-two{
+    width: 75%;
+}
+.ch-two{
+    display: none;
+}
+.three{
+    width: 95%;
+}
+.three p {
+    text-align: center;
+    font-size: 40px;
+}
+.four{
+display: none;
+}
+
+.five {
+    width: 63%;
+}
+.button-five {
+    width: 85px;
+    text-align: center;
+}
+.six{
+    width: 30%;
+}
+.circle{
+  display: none;
+
+}
+.eight{
+ padding: 19px;
+}
+
+.visual, .file, .calender, .suitcase, .chat, .global, .cl{
+    font-size: 15px;
+    text-align: center;
+}
+.site p{
+    display: none
+}
+.ninth {
+    width: 77%;
+    padding: 20px;
+}
+.t-one{
+ display: none;
+}
+.e-one {
+    width: 95%;
+}
+.e-two {
+    padding: 1px;
+    width: 90%;
+}
+.name, .email, .message{
+    padding: 4px;
+}
+.submit{
+    width: 30%;
+}
+.a, .b, .c{
+    width: 88%;
+}
+
+}
